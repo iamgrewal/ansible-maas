@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: ub08
   remote_user: root
   roles:
     - ansible-maas
