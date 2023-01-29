@@ -4,8 +4,8 @@ maas_adminusers:
   - username: 'root'
     email: 'admin@{{ maas_dns_domain }}'
     password: 'r00tm3'
-maas_dns_domain: 'vagrant.local'
-maas_region_controller: '192.168.250.10'
+maas_dns_domain: 'po1.me'
+maas_region_controller: '192.168.0.42'
 maas_region_controller_url: 'http://{{ maas_region_controller }}:5240/MAAS'
 maas_repo: 'ppa:maas/stable'
 
