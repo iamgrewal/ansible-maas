@@ -1,0 +1,6 @@
+---
+- hosts: maas_servers
+  vars:
+  roles:
+    - role: ansible-maas
+  tasks:
